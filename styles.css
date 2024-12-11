@@ -1,0 +1,126 @@
+.box {
+    display: flex ;
+    
+}
+
+.photo {
+    width: 259px;
+    height: 351px;
+    margin-right: 50px; 
+}
+
+.text {
+    max-width: 700px; 
+    
+}
+
+h2  {
+    margin: 1px 1px 1px 1px;
+    border-left: 6px solid midnightblue;
+    font-family: 'Brush Script MT', cursive;  
+}
+.name { 
+    color: midnightblue;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(118, 157, 243, 0.816), 0 0 35px rgba(125, 86, 254, 0.871), 0 0 7px rgb(176, 188, 248);
+}
+body {
+    background-color: rgb(200, 220, 250);
+  }
+  a:link {
+    color: midnightblue;
+  }
+  
+  a:visited {
+    color: rgb(83, 37, 162);
+  }
+  
+  a:hover {
+    color: rgb(105, 163, 255);
+  }
+  
+  a:active {
+    color: rgb(30, 12, 64);
+  }
+  h3 {
+    color: rgb(19, 19, 89);
+    font-family: "Times New Roman", Times, serif;
+  }
+
+ .name {
+    font-family: "Times New Roman", Times, serif;
+  }
+  #overflow {
+    background: rgba(25, 25, 112, 0.74);
+  color: rgb(200, 220, 250);
+  padding: 5px;
+  width: 99%;
+  height: 100px;
+  overflow: scroll;
+  border: 2px solid #000000;
+  }
+  p.border {
+    border: 4px double midnightblue;
+    width: 70px;
+    border-radius: 6px;
+  }
+  .contacts {
+    background-color: midnightblue;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(200, 220, 250);
+  }
+  .contactstext {
+    color: rgb(200, 220, 250);
+    a:link {
+        color: rgb(105, 163, 255);
+      }
+      
+      a:visited {
+        color: rgb(166, 166, 244);
+      }
+      
+      a:hover {
+        color: rgb(105, 163, 255);
+      }
+      
+      a:active {
+        color: rgb(30, 12, 64);
+      }
+  }
+
+  .grid-container {
+    display:grid ;
+    grid-template-columns: auto auto auto;
+    background-color: #28606b93;
+    padding: 30px;
+  }
+  
+  .grid-item {
+    background-color: rgba(218, 184, 129, 0.387);
+    border: 2px solid rgba(0, 0, 0, 0.688);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .animation {
+    width: 1453px;
+    height: 25px;
+    background-color: midnightblue;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from {background-color: midnightblue;}
+    to {background-color: rgb(200, 220, 250);}
+  }
+  ::selection {
+    color: rgb(190, 234, 255);
+    background: rgba(28, 72, 149, 0.738);
+  }
+#col {
+    color: rgb(91, 159, 179);
+}
